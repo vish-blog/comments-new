@@ -1,0 +1,12 @@
+name: "Nova Postagem"
+description: "Cria uma issue dedicada aos comentários de uma nova postagem"
+body:
+  - type: input
+    id: url
+    attributes:
+      label: "Post de Referência:"
+      description: "URL do Post"
+      placeholder: "Exemplo: https://www.vish.blog.br/imagens/tirinhas/vish"
+      value: "https://www.vish.blog.br/"
+    validations:
+      required: true
